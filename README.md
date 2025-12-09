@@ -9,7 +9,7 @@ It demonstrates PC–MCU communication, UART protocols, and tinyML execution on 
 
 ⸻
 
-📂 Project Structure
+Project Structure
 
 /Python Transmitter/
     - Image preprocessing scripts
@@ -25,7 +25,7 @@ It demonstrates PC–MCU communication, UART protocols, and tinyML execution on 
 
 ⸻
 
-⚙️ How It Works
+How It Works
 	1.	Python loads and preprocesses input data.
 	2.	Data is encoded into byte frames and sent via UART.
 	3.	The RISC-V board receives the stream, reconstructs inputs, and runs inference.
@@ -33,7 +33,7 @@ It demonstrates PC–MCU communication, UART protocols, and tinyML execution on 
 
 ⸻
 
-▶️ Running the Project
+Running the Project
 
 PC (Python Transmitter)
 
@@ -48,7 +48,7 @@ RISC-V Board
 
 ⸻
 
-✨ Features
+Features
 	•	Real-time PC → RISC-V data transfer
 	•	Lightweight embedded ML inference
 	•	Demonstrates UART communication & MPMC concepts
@@ -56,6 +56,8 @@ RISC-V Board
 
 ⸻
 
-📘 Purpose
+Purpose
 
 Designed for academic use, especially MPMC projects and embedded ML demonstrations.
+
+Project Demonstration : https://drive.google.com/drive/folders/1hvJBuOZEwjUZoKEcDB3VPNmnQRz9k7QE?usp=sharing
